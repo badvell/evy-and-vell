@@ -1,38 +1,124 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  scroll-behavior: smooth;
+}
+
+body.screen {
+  overflow: hidden;
+}
+
+[class*='__container'] {
+  max-width: 132rem;
+  margin: 0 auto;
+  padding: 0 1.3rem;
+}
+
+.text {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 700;
   text-align: center;
+  padding-top: 8rem;
+  margin: 8rem 0;
+  color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 27rem) {
+  .text {
+    font-size: 2.5rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
   display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+@media screen and (max-width: 45rem) {
+  ul {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: -100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    transition: all 0.5s ease;
+    z-index: -1;
+  }
+
+  ul.active {
+    right: 0;
+  }
+}
+
+.home {
+  width: 100%;
+}
+
+.home__img {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
+  filter: brightness(0.7);
+}
+
+.home__text {
+  display: flex;
+  justify-content: center;
+  position: relative;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.home__subtext {
+  font-weight: 500;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #c3bb66;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.home__title {
+  font-weight: 700;
+  height: 10rem;
+  font-size: 10rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 46.8rem) {
+  .home__title {
+    font-size: 7rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 28.1rem) {
+  .home__title {
+    font-size: 5rem;
+  }
+
+  .home__subtext {
+    font-size: 2rem;
   }
 }
