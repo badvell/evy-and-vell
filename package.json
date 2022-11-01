@@ -1,8 +1,8 @@
 {
-  "name": "evy-and-vell",
+  "name": "vell",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://badvell.github.io/evy-and-vell/",
+  "homepage": "https://badvell.github.io/vell/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -21,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "prdeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
