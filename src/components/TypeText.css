@@ -1,0 +1,40 @@
+.home__text {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.home__subtext {
+  font-weight: 500;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #c3bb66;
+}
+
+.home__title {
+  font-weight: 700;
+  height: 10rem;
+  font-size: 10rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 46.8rem) {
+  .home__title {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 28.1rem) {
+  .home__title {
+    font-size: 5rem;
+  }
+
+  .home__subtext {
+    font-size: 2rem;
+  }
+}
