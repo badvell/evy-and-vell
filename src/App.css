@@ -55,6 +55,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5rem;
     top: 0;
     right: -100%;
     text-align: center;

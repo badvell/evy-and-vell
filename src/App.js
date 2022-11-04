@@ -3,6 +3,7 @@ import { About } from './pages/About';
 import { Features } from './pages/Features';
 import { Gallery } from './pages/Gallery';
 import { Footer } from './pages/Footer';
+import { ContactSection } from './components/ContactSection';
 
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Features />
       <Gallery />
+      <ContactSection />
       <Footer />
     </div>
   );

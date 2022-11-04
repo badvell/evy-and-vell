@@ -6,14 +6,14 @@ import './AboutUs.css';
 
 export const AboutUs = () => {
   return (
-    <div id='about'>
+    <div id='about' data-aos='fade-up'>
       <Text text='About us' />
       <div className='about__container'>
         <div className='about__image'>
           <img src={Evy} alt='Evy' className='about__img' />
           <img src={Vell} alt='Vell' className='about__img' />
         </div>
-        <div className='about__title'>
+        <div data-aos='fade-up' className='about__title'>
           <h2 className='about__info'>
             We are couple photographers based in Zürich, Switzerland &mdash;
             Evy and Vell.

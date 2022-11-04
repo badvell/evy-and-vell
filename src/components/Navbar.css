@@ -39,6 +39,17 @@
   transition: color 0.4s ease;
 }
 
+.navbar__link:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+@media screen and (max-width: 45rem) {
+  .navbar__link {
+    font-size: 2rem;
+  }
+}
+
 .hamburger {
   display: none;
   cursor: pointer;
@@ -54,15 +65,4 @@
   .hamburger {
     display: block;
   }
-}
-
-/* @media screen and (max-width: 45rem) {
-  .navbar__links {
-    display: none;
-  }
-} */
-
-.navbar__link:hover {
-  opacity: 0.9;
-  color: #fff;
 }

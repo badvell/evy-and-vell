@@ -44,7 +44,8 @@ export const Navbar = () => {
             to='about'
             spy={true}
             smooth={true}
-            offset={0} duration={500}
+            offset={-100}
+            duration={500}
           >
             About
           </Link>
@@ -55,7 +56,8 @@ export const Navbar = () => {
             to='features'
             spy={true}
             smooth={true}
-            offset={0} duration={500}
+            offset={0}
+            duration={500}
           >
             Features
           </Link>
@@ -66,7 +68,8 @@ export const Navbar = () => {
             to='gallery'
             spy={true}
             smooth={true}
-            offset={0} duration={500}
+            offset={0}
+            duration={500}
           >
             Gallery
           </Link>
@@ -76,7 +79,7 @@ export const Navbar = () => {
             onClick={handleClose}
             to='contact' spy={true}
             smooth={true}
-            offset={-100}
+            offset={0}
             duration={500}
           >
             Contact
