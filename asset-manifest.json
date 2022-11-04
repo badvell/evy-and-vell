@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/vell/static/css/main.1d2325e9.css",
-    "main.js": "/vell/static/js/main.920498ac.js",
+    "main.css": "/vell/static/css/main.e55d82e5.css",
+    "main.js": "/vell/static/js/main.39dd4a37.js",
     "static/media/BG-7.JPG": "/vell/static/media/BG-7.62d842e82b72e7207d34.JPG",
     "static/media/BG-6.jpg": "/vell/static/media/BG-6.e18756e2d280332b2cdd.jpg",
     "static/media/BG.jpg": "/vell/static/media/BG.a4da015d70f65b18184e.jpg",
     "static/media/BG-5.jpg": "/vell/static/media/BG-5.b0a73caa28a8f5a0765c.jpg",
-    "static/media/img5.jpg": "/vell/static/media/img5.d095429fefb778ad2353.jpg",
+    "static/media/Hotels.jpg": "/vell/static/media/Hotels.d095429fefb778ad2353.jpg",
     "static/media/team2.JPG": "/vell/static/media/team2.dac82700ca6551d8bf33.JPG",
     "static/media/des-balances.png": "/vell/static/media/des-balances.303b46f277a356ed1628.png",
-    "static/media/img7.jpg": "/vell/static/media/img7.008ba59b9e66550210cc.jpg",
+    "static/media/People.jpg": "/vell/static/media/People.008ba59b9e66550210cc.jpg",
     "static/media/cabrio.png": "/vell/static/media/cabrio.5399c9fdb24ad2b2eb29.png",
-    "static/media/img1.jpg": "/vell/static/media/img1.11497982634a50412f77.jpg",
+    "static/media/Nature.jpg": "/vell/static/media/Nature.11497982634a50412f77.jpg",
     "static/media/team1.jpg": "/vell/static/media/team1.ca15e8a26daf30769bcd.jpg",
     "static/media/Riffelalp_Resort_222m.png": "/vell/static/media/Riffelalp_Resort_222m.cd0955c6cfa5f529f95e.png",
-    "static/media/img2.jpg": "/vell/static/media/img2.666a0712da709fed3153.jpg",
-    "static/media/img6.jpg": "/vell/static/media/img6.28e197ea63cca0864d9c.jpg",
-    "static/media/img9.jpg": "/vell/static/media/img9.e36966b6a8fbd11a821e.jpg",
-    "static/media/img3.jpg": "/vell/static/media/img3.2914b3a7135cc2e796f6.jpg",
-    "static/media/img8.jpg": "/vell/static/media/img8.e64d4887530497869417.jpg",
-    "static/media/img4.jpg": "/vell/static/media/img4.52047c69221cbaa5e92c.jpg",
+    "static/media/City.jpg": "/vell/static/media/City.666a0712da709fed3153.jpg",
+    "static/media/Food.jpg": "/vell/static/media/Food.28e197ea63cca0864d9c.jpg",
+    "static/media/Animals.jpg": "/vell/static/media/Animals.e36966b6a8fbd11a821e.jpg",
+    "static/media/Events.jpg": "/vell/static/media/Events.2914b3a7135cc2e796f6.jpg",
+    "static/media/Cars.jpg": "/vell/static/media/Cars.e64d4887530497869417.jpg",
+    "static/media/Products.jpg": "/vell/static/media/Products.52047c69221cbaa5e92c.jpg",
     "static/media/Appenzeller_Bier.png": "/vell/static/media/Appenzeller_Bier.6d0b2ea3d87dfe5f95cf.png",
     "static/media/zurich.png": "/vell/static/media/zurich.aef0b6391d18441a1f0e.png",
     "static/media/vrony.png": "/vell/static/media/vrony.a7b2bd7c49ac8e801184.png",
@@ -44,11 +44,11 @@
     "static/media/Lichthalle_MAAG.png": "/vell/static/media/Lichthalle_MAAG.242db67ea94ee3c75d8f.png",
     "static/media/hotel-felix.png": "/vell/static/media/hotel-felix.7ed57122e2611187ebd0.png",
     "index.html": "/vell/index.html",
-    "main.1d2325e9.css.map": "/vell/static/css/main.1d2325e9.css.map",
-    "main.920498ac.js.map": "/vell/static/js/main.920498ac.js.map"
+    "main.e55d82e5.css.map": "/vell/static/css/main.e55d82e5.css.map",
+    "main.39dd4a37.js.map": "/vell/static/js/main.39dd4a37.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d2325e9.css",
-    "static/js/main.920498ac.js"
+    "static/css/main.e55d82e5.css",
+    "static/js/main.39dd4a37.js"
   ]
 }
