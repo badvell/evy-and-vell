@@ -77,7 +77,8 @@ export const Navbar = () => {
         <li className='navbar__link'>
           <Link
             onClick={handleClose}
-            to='contact' spy={true}
+            to='contact'
+            spy={true}
             smooth={true}
             offset={0}
             duration={500}

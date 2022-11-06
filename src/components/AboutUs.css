@@ -58,10 +58,8 @@
   text-align: center;
 }
 
-@media (max-width: 50rem) {
-  .about__info {
-    margin-bottom: 1rem;
-  }
+.about__info {
+  margin-bottom: 1rem;
 }
 
 .about__description {

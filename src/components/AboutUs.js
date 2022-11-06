@@ -15,8 +15,7 @@ export const AboutUs = () => {
         </div>
         <div data-aos='fade-up' className='about__title'>
           <h2 className='about__info'>
-            We are couple photographers based in Zürich, Switzerland &mdash;
-            Evy and Vell.
+            We are couple photographers based in Zürich, Switzerland &mdash; Evy and Vell.
           </h2>
           <p className='about__description'>
             Our love to photography started when we purchased our first Sony
