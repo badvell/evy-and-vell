@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/vell/static/css/main.e55d82e5.css",
-    "main.js": "/vell/static/js/main.39dd4a37.js",
+    "main.css": "/vell/static/css/main.3b8a6cc9.css",
+    "main.js": "/vell/static/js/main.a82f28f3.js",
     "static/media/BG-7.JPG": "/vell/static/media/BG-7.62d842e82b72e7207d34.JPG",
     "static/media/BG-6.jpg": "/vell/static/media/BG-6.e18756e2d280332b2cdd.jpg",
     "static/media/BG.jpg": "/vell/static/media/BG.a4da015d70f65b18184e.jpg",
     "static/media/BG-5.jpg": "/vell/static/media/BG-5.b0a73caa28a8f5a0765c.jpg",
     "static/media/Hotels.jpg": "/vell/static/media/Hotels.d095429fefb778ad2353.jpg",
+    "static/media/Products.jpg": "/vell/static/media/Products.144d680b0f5df08a5047.jpg",
     "static/media/team2.JPG": "/vell/static/media/team2.dac82700ca6551d8bf33.JPG",
     "static/media/des-balances.png": "/vell/static/media/des-balances.303b46f277a356ed1628.png",
     "static/media/People.jpg": "/vell/static/media/People.008ba59b9e66550210cc.jpg",
@@ -19,7 +20,6 @@
     "static/media/Animals.jpg": "/vell/static/media/Animals.e36966b6a8fbd11a821e.jpg",
     "static/media/Events.jpg": "/vell/static/media/Events.2914b3a7135cc2e796f6.jpg",
     "static/media/Cars.jpg": "/vell/static/media/Cars.e64d4887530497869417.jpg",
-    "static/media/Products.jpg": "/vell/static/media/Products.52047c69221cbaa5e92c.jpg",
     "static/media/Appenzeller_Bier.png": "/vell/static/media/Appenzeller_Bier.6d0b2ea3d87dfe5f95cf.png",
     "static/media/zurich.png": "/vell/static/media/zurich.aef0b6391d18441a1f0e.png",
     "static/media/vrony.png": "/vell/static/media/vrony.a7b2bd7c49ac8e801184.png",
@@ -44,11 +44,11 @@
     "static/media/Lichthalle_MAAG.png": "/vell/static/media/Lichthalle_MAAG.242db67ea94ee3c75d8f.png",
     "static/media/hotel-felix.png": "/vell/static/media/hotel-felix.7ed57122e2611187ebd0.png",
     "index.html": "/vell/index.html",
-    "main.e55d82e5.css.map": "/vell/static/css/main.e55d82e5.css.map",
-    "main.39dd4a37.js.map": "/vell/static/js/main.39dd4a37.js.map"
+    "main.3b8a6cc9.css.map": "/vell/static/css/main.3b8a6cc9.css.map",
+    "main.a82f28f3.js.map": "/vell/static/js/main.a82f28f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e55d82e5.css",
-    "static/js/main.39dd4a37.js"
+    "static/css/main.3b8a6cc9.css",
+    "static/js/main.a82f28f3.js"
   ]
 }
