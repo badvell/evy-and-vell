@@ -24,10 +24,7 @@ export const Carousel = () => {
         >
           {images.map((slide, i) => {
             return (
-              <CarouselItem
-                slide={slide}
-                key={i}
-              />
+              <CarouselItem slide={slide} key={i} />
             );
           })}
         </div>
