@@ -3,9 +3,9 @@ import ObserveSection from "../components/ObserveSection";
 
 export const About = () => {
   return (
-    <div>
+    <>
       <AboutUs />
       <ObserveSection />
-    </div>
+    </>
   );
 };

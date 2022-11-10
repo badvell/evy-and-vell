@@ -5,7 +5,7 @@ import './ContactSection.css';
 
 export const ContactSection = () => {
   return (
-    <div>
+    <>
       <section className="contact" id="contact">
         <Text text='Contact us' />
         <div data-aos="fade-up" className="contact__container about__container">
@@ -23,6 +23,6 @@ export const ContactSection = () => {
           </a>
         </div>
       </section>
-    </div>
+    </>
   );
 };

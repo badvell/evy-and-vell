@@ -8,7 +8,7 @@ import './FeatureAbout.css';
 
 export const FeatureAbout = () => {
   return (
-    <div>
+    <>
       <div className='features__container' id='features'>
         <Text text='Collaborated with' />
         <div data-aos="fade-up" className='features__highlight'>
@@ -41,6 +41,6 @@ export const FeatureAbout = () => {
           })}
         </div>
       </div>
-    </div>
+    </>
   );
 };
