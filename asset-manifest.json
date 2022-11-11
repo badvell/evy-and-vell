@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vell/static/css/main.3b8a6cc9.css",
-    "main.js": "/vell/static/js/main.a82f28f3.js",
+    "main.js": "/vell/static/js/main.93136a13.js",
     "static/media/BG-7.JPG": "/vell/static/media/BG-7.62d842e82b72e7207d34.JPG",
     "static/media/BG-6.jpg": "/vell/static/media/BG-6.e18756e2d280332b2cdd.jpg",
     "static/media/BG.jpg": "/vell/static/media/BG.a4da015d70f65b18184e.jpg",
@@ -45,10 +45,10 @@
     "static/media/hotel-felix.png": "/vell/static/media/hotel-felix.7ed57122e2611187ebd0.png",
     "index.html": "/vell/index.html",
     "main.3b8a6cc9.css.map": "/vell/static/css/main.3b8a6cc9.css.map",
-    "main.a82f28f3.js.map": "/vell/static/js/main.a82f28f3.js.map"
+    "main.93136a13.js.map": "/vell/static/js/main.93136a13.js.map"
   },
   "entrypoints": [
     "static/css/main.3b8a6cc9.css",
-    "static/js/main.a82f28f3.js"
+    "static/js/main.93136a13.js"
   ]
 }
