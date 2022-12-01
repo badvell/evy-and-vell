@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import { Link } from 'react-scroll';
-import { HiOutlineMenuAlt3 } from 'react-icons/hi';
-import { VscChromeClose } from 'react-icons/vsc';
+import { useState } from "react";
+import { Link } from "react-scroll";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { VscChromeClose } from "react-icons/vsc";
 
-import './Navbar.css';
+import "./Navbar.css";
 
 export const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -11,37 +11,37 @@ export const Navbar = () => {
 
   const handleClick = () => {
     setClick(!click);
-    document.body.classList.toggle('screen');
+    document.body.classList.toggle("screen");
   };
 
   const handleClose = () => {
     setClick(!click);
-    document.body.classList.remove('screen');
+    document.body.classList.remove("screen");
   };
 
   const changeColorNavbar = () => {
     window.scrollY >= 100 ? setColor(true) : setColor(false);
   };
 
-  window.addEventListener('scroll', changeColorNavbar);
+  window.addEventListener("scroll", changeColorNavbar);
 
   return (
-    <div className={color ? 'navbar navbar__color' : 'navbar'}>
+    <div className={color ? "navbar navbar__color" : "navbar"}>
       <Link
-        to='home'
+        to="home"
         spy={true}
         smooth={true}
         offset={-100}
         duration={500}
-        className='navbar__logo'
+        className="navbar__logo"
       >
         Evy and Vel photography
       </Link>
-      <ul className={click ? 'navbar__links active' : 'navbar__links'}>
-        <li className='navbar__link'>
+      <ul className={click ? "navbar__links active" : "navbar__links"}>
+        <li className="navbar__link">
           <Link
             onClick={handleClose}
-            to='about'
+            to="about"
             spy={true}
             smooth={true}
             offset={-100}
@@ -50,10 +50,10 @@ export const Navbar = () => {
             About
           </Link>
         </li>
-        <li className='navbar__link'>
+        <li className="navbar__link">
           <Link
             onClick={handleClose}
-            to='features'
+            to="features"
             spy={true}
             smooth={true}
             offset={0}
@@ -62,10 +62,10 @@ export const Navbar = () => {
             Features
           </Link>
         </li>
-        <li className='navbar__link'>
+        <li className="navbar__link">
           <Link
             onClick={handleClose}
-            to='gallery'
+            to="gallery"
             spy={true}
             smooth={true}
             offset={0}
@@ -74,10 +74,10 @@ export const Navbar = () => {
             Gallery
           </Link>
         </li>
-        <li className='navbar__link'>
+        <li className="navbar__link">
           <Link
             onClick={handleClose}
-            to='contact'
+            to="contact"
             spy={true}
             smooth={true}
             offset={0}
@@ -87,10 +87,7 @@ export const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <div
-        className='hamburger'
-        onClick={handleClick}
-      >
+      <div className="hamburger" onClick={handleClick}>
         {click ? <VscChromeClose size={25} /> : <HiOutlineMenuAlt3 size={25} />}
       </div>
     </div>
